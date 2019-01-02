@@ -1,7 +1,8 @@
 /* Basic Styles */
 
 body {
-  color: #e2e2e2;
+  color: #3a3a3a;
+  font-size: 16px;
   font-family: 'Roboto','sans-serif';
 }
 
@@ -40,8 +41,9 @@ h3 {
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
+  color: #a4852f; 
 }
 
 hr.break {
@@ -94,7 +96,7 @@ hr.break {
 .project-img {
   min-height: 200px;
   cursor: pointer;
-  border: 3px solid e2e0da !important;
+  border: 3px solid #eee !important;
 }
 
 button {
@@ -107,7 +109,7 @@ button {
 	text-align: left;
 	padding: 5px;
 	margin: 5px; 
-	color: #7e7e7e;
+	color: #4d535a;
 }
 
 .modal-body {
@@ -178,3 +180,36 @@ button {
 }
 .socialicons a { color: #8aa3b9; font-size: 26pt; padding: 0px 5px; }
 .socialicons a:hover { color: #333; }
+
+#experience-timeline>div
+{
+	background:#fff;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #dcd9d9
+}.no-js 
+#experience-timeline>div h3
+{
+	font-size:24px;
+	font-weight:500;
+	color:#3a3a3a;
+	display:inline-block;
+	margin:0
+}.no-js 
+#experience-timeline>div h4
+{
+	font-size:18px;
+	font-weight:400;
+	color:#a4852f !important;
+	margin:0 0 15px 0
+}
+.no-js 
+#experience-timeline>div p, #experience-timeline>div p>ul>li
+{
+	color:#3a3a3a;
+	font-size:14px;
+	font-weight:300;
+	margin:0
+}.no-js 
+#experience-timeline:before,.no-js 
+#experience-timeline:after{content:none}
