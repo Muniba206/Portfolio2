@@ -94,7 +94,7 @@ hr.break {
 .project-img {
   min-height: 200px;
   cursor: pointer;
-  border: 3px solid e2e0da;
+  border: 3px solid e2e0da !important;
 }
 
 button {
